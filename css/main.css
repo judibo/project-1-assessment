@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+h1 {
+    color: #000000;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+input {
+    height: 62px;
+    margin: 20px;
+    border-radius: 5%;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+button {
+    background-color: gray;
+    color: white;
+    border-radius: 10%;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+}
+button:hover {
+    background-color: white;
+    color: gray;
+}
